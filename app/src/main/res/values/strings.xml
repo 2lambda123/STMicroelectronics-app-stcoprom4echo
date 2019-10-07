@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ST Copro M4Echo</string>
+
+    <string name="title_command">Command</string>
+    <string name="title_received">Returned Data</string>
+
+    <string name="hint_command">Write a command to send</string>
+    <string name="button_send">Send Command</string>
+    <string name="button_reset">Reset</string>
+</resources>
