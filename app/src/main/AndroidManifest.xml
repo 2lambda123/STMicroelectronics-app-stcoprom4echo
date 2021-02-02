@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stmicrolectronics.stcoprom4echo">
+    package="com.stmicroelectronics.stcoprom4echo">
 
     <application
         android:allowBackup="false"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.stmicroelectronics.stcoprom4echo.MainActivity"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".FirmwareService" />
+        <service android:name="com.stmicroelectronics.stcoprom4echo.FirmwareService" />
     </application>
 
 </manifest>

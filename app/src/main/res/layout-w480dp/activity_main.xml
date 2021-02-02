@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.05"
         android:gravity="center"
         style="@style/Title"
         android:text="@string/title_command"
@@ -24,6 +24,7 @@
         android:layout_weight="0.15"
         android:layout_marginStart="@dimen/horizontal_margin"
         android:layout_marginEnd="@dimen/horizontal_margin"
+        android:layout_marginBottom="@dimen/vertical_margin"
         android:inputType="text"
         style="@style/EditText"
         android:hint="@string/hint_command"
@@ -32,7 +33,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.3"
+        android:layout_weight="0.1"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -65,7 +66,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.05"
         android:gravity="center"
         style="@style/Title"
         android:text="@string/title_received"
@@ -84,5 +85,14 @@
         android:maxLines="20"
         android:scrollbars="vertical"
         style="@style/ReceivedText"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/stm32mp1_logo_android"/>
 
 </LinearLayout>

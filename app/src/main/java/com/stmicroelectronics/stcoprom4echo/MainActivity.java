@@ -1,4 +1,4 @@
-package com.stmicrolectronics.stcoprom4echo;
+package com.stmicroelectronics.stcoprom4echo;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
